@@ -254,88 +254,6 @@ def label_correction(params, train_data, train_label,dataset,r=0.2
     return train_label
 
 
-def train(params, train_data, train_label, val_data,val_label,test_data, test_label,dataset,isMixup=False,alpha=0.0):
-    
-    #m = transformer_ont(params)
-    #m = tr_try(params)
-    m=tr_try(params)
-    path1="model/"+dataset+".h5"
-    path2="model/"+dataset+"after.h5"
-    path3="model/"+"decoder.h5"
-    path3_5="model/"+"decoderpart2.h5"
-    path4="model/"+dataset+str(dataset)+"final.h5"
-    path5="model/"+"decoderwithscore.h5"
-    path6="model/"+"decoderfinalpart2.h5"
-    #np.random.seed(1337)
-    result=Result()
-    batch_end_callback = LambdaCallback(on_epoch_end=
-                                        lambda batch, logs:
-                                        print(get_score_at_test_weight(m, val_data, val_label,result,path1
-                                                                )))
-    #at_test_weight is used for Ubuntu.
-    #batch_size=params['train_batch_size']
-    #epochs=params['train_epochs_num']
-    batch_size=50
-    epochs=epochglobal
-    learning_rate=params['train_base_learning_rate']
-    #early_stopping = EarlyStopping(monitor='val_loss', patience=5, verbose=1)
-    m.compile(loss='mse', optimizer=Adam(learning_rate=learning_rate))
-    
-    #m.load_weights(path1)
-    m.summary()
-    
-    train_data=convert_one_hot(train_data)
-    #train_data=label_smooth(train_data)
-    val_data=convert_one_hot(val_data)
-    #val_data=label_smooth(val_data)
-    test_data=convert_one_hot(test_data)
-    #test_data=label_smooth(test_data)
-    
-
-    if (isMixup):
-        params2=ModelParams_WT
-        m2=transformer_decoder()
-        before=Model(inputs=m2.input,outputs=m2.get_layer("middle").output)
-        m2.load_weights(path3)
-        train_data_middle=before.predict(train_data)
-        after=Decoder()
-        after.load_weights(path3_5)
-        smodel=tr_try(params)
-        smodel.load_weights(path1)
-        
-
-        #tx,ty=C_AL_mixup_REM(train_data_middle,train_label,smodel,after)
-        #tx,ty=final_mix_withal(train_data_middle,train_label, smodel,after)
-        #return tx
-
-
-        #analysis(train_data,train_label, before, after)
-
-        tx,ty=augmix(train_data,train_label,before,after,alpha)
-        splx=np.reshape(tx,newshape=(-1,23,4))
-        ty=label_correction(params, revise(splx),ty, dataset,f=0.9,r=0.8)
-        train_data=np.concatenate((splx,train_data))
-        train_label=np.concatenate((ty,train_label))
-
-        path1=path4
-    
-    #train_data=[train_data,get_position_embedding(train_data)]
-    #
-    #test_data=[test_data,get_position_embedding(test_data)]
-
-    m.fit(train_data, train_label,
-          batch_size=batch_size,
-          epochs=epochs,
-          verbose=2,
-          callbacks=[batch_end_callback])    
-
-    m.load_weights(path1)
-    test_pred=m.predict(test_data)
-    result=get_spearman(test_pred,test_label)
-    
-
-    return result
-
 if __name__ == "__main__":
     from ParamsDetail2 import ParamsDetail
 
@@ -364,48 +282,7 @@ if __name__ == "__main__":
     #datasets=['chari2015Train293T','doench2016_hg19','doench2016plx_hg19','hart2016-Hct1162lib1Avg','hart2016-HelaLib1Avg','hart2016-HelaLib2Avg','hart2016-Rpe1Avg','xu2015TrainHl60']
     #datasets=['WT']
     
-    for dataset in datasets:
-        res=[222222]
-        needtrain=False
-        train_x, test_x, val_x,val_y,train_y, test_y= load_data(dataset)
-        restmp="model/"+dataset+".npy"
-        c=np.array(res)
-        np.save(restmp,c)
-        params=ParamsDetail[dataset]
-        if (needtrain):
-            ob=train(params,train_x,train_y,val_x,val_y,test_x,test_y,dataset,False,0)
-            print(ob)
-            res.append(ob)
-            res.append(11111)
-            c=np.array(res)
-            np.save(restmp,c)
-        
 
-        #label_correction_pre(params, train_x,train_y,val_x,val_y, dataset)
-        '''
-        for i in range(0,10):
-            f2=i*1.0/10.0
-            train_y2=label_correction(params, train_x,train_y, dataset,f=f2)
-            ob=train(params,train_x,train_y2,val_x,val_y,test_x,test_y,dataset,False,0)
-            print(ob)
-            res.append(ob)
-            res.append(11111)
-            c=np.array(res)
-            np.save(restmp,c)
-        '''
-
-        
-        '''
-        for i in range(1,11):
-            rate=i*1.0/10.0
-            #train_x,train_y=train_pre(params,train_x,train_y,val_x,val_y,dataset)
-            ob=train(params,train_x,train_y,val_x,val_y,test_x,test_y,dataset,True,rate)
-            print(ob)
-            res.append(ob)
-            res.append(11111)
-            c=np.array(res)
-            np.save(restmp,c)
-        '''
 
     
 
