@@ -24,15 +24,15 @@ python augmented.py
 In addition, the code of Automix and CNLC are in dataag.py(https://github.com/cwk644/CrisprDA/dataag.py)
 
 ## Files and directories description
-+ [ParamsDetail2.py](https://github.com/cwk644/CrisprDA/ParamsDetail2.py)) the weights for the CrisprDA model trained by different datasets
-+ [Transformer.py](https://github.com/cwk644/CrisprDA/Transformer.py)) code for attention mechanisam and Transformer
-+ [initial.py](https://github.com/cwk644/CrisprDA/initial.py)) test of  CrisprDA with out data augmentation 
-+ [augmented.py](https://github.com/cwk644/CrisprDA/augmented.py)) test of CrisprDA with data augmentation of Automix and CNLC
-+ [decoder.py](https://github.com/cwk644/CrisprDA/decoder.py)) code for Auto encoder used in Automix
-+ [dataag.py](https://github.com/cwk644/CrisprDA/dataag.py)) code for Automix and CNLC
-+ [utils.py](https://github.com/cwk644/CrisprDA/decoder.py)) code for data preprocessing and evaluation metrics setting
-+ [initial](https://github.com/cwk644/CrisprDA/initial)) CrisprDA model for different datasets without data augmentation methods
-+ [after](https://github.com/cwk644/CrisprDA/after)) CrisprDA model for different datasets without combination of Automix and CNLC
-+ [train](https://github.com/cwk644/CrisprDA/train)) train datasets for CrisprDA
-+ [val](https://github.com/cwk644/CrisprDA/val)) validation datasets for CrisprDA
-+ [test](https://github.com/cwk644/CrisprDA/test)) test datasets for CrisprDA
++ [ParamsDetail2.py](https://github.com/cwk644/CrisprDA/ParamsDetail2.py) the weights for the CrisprDA model trained by different datasets
++ [Transformer.py](https://github.com/cwk644/CrisprDA/Transformer.py) code for attention mechanisam and Transformer
++ [initial.py](https://github.com/cwk644/CrisprDA/initial.py) test of  CrisprDA with out data augmentation 
++ [augmented.py](https://github.com/cwk644/CrisprDA/augmented.py) test of CrisprDA with data augmentation of Automix and CNLC
++ [decoder.py](https://github.com/cwk644/CrisprDA/decoder.py) code for Auto encoder used in Automix
++ [dataag.py](https://github.com/cwk644/CrisprDA/dataag.py) code for Automix and CNLC
++ [utils.py](https://github.com/cwk644/CrisprDA/decoder.py) code for data preprocessing and evaluation metrics setting
++ [initial](https://github.com/cwk644/CrisprDA/initial) CrisprDA model for different datasets without data augmentation methods
++ [after](https://github.com/cwk644/CrisprDA/after) CrisprDA model for different datasets without combination of Automix and CNLC
++ [train](https://github.com/cwk644/CrisprDA/train) train datasets for CrisprDA
++ [val](https://github.com/cwk644/CrisprDA/val) validation datasets for CrisprDA
++ [test](https://github.com/cwk644/CrisprDA/test) test datasets for CrisprDA
