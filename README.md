@@ -9,5 +9,11 @@ An hyrbid architecture of CNN and transformer for sgRNA cleavage efficiency pred
 + pandas=1.4.4
 + numpy=1.21.5
 
-
+## Test demo with testsets
 The model is included in anothertry.py and data augmentation methods is writed in dataag.py
+**Note: network parameters of different variants are set in [ParamsDetail2.py](https://github.com/cwk644/CrisprDA/ParamsDetail2.py), and corresponding parameters need to be changed in [ParamsDetail2.py](https://github.com/cwk644/CrisprDA/ParamsDetail2.py)) after the test dataset is replaced. The default network parameter is corresponding to dataset WT-SpCas9.**
+
+1. run and test
+```
+python anothertry.py
+```
