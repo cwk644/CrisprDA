@@ -190,60 +190,7 @@ def load_data_old(dataset):
     test_y=np.load("test/"+dataset+"_test_y.npy")
     return train_x,test_x,train_y,test_y
 
-from sklearn.model_selection import train_test_split
-def get_split_dataset(x,y):
-    low_x=[]
-    low_y=[]
-    medium_x=[]
-    medium_y=[]
-    high_x=[]
-    high_y=[]
-    
-    len=x.shape[0]
-    for i in range(len):
-        if (y[i]<=0.25):
-            low_x.append(x[i])
-            low_y.append(y[i])
-        elif (y[i]>=0.75):
-            high_x.append(x[i])
-            high_y.append(y[i])
-        else:
-            medium_x.append(x[i])
-            medium_y.append(y[i])
-    
-    low_x=np.array(low_x)
-    low_y=np.array(low_y)
-    medium_x=np.array(medium_x)
-    medium_y=np.array(medium_y)
-    high_x=np.array(high_x)
-    high_y=np.array(high_y)
-    
-    kong=[]
-    kong=np.array(kong)
-    
-    trlx,tlx,trly,tly= train_test_split(low_x, low_y, test_size=0.15, shuffle=True)
-    trmx,tmx,trmy,tmy= train_test_split(medium_x, medium_y, test_size=0.15, shuffle=True)
-    trhx,thx,trhy,thy= train_test_split(high_x, high_y, test_size=0.15, shuffle=True)
 
-    
-    
-    trlx,vlx,trly,vly= train_test_split(trlx, trly, test_size=0.1, shuffle=True)
-    trmx,vmx,trmy,vmy= train_test_split(trmx, trmy, test_size=0.1, shuffle=True)
-    trhx,vhx,trhy,vhy= train_test_split(trhx, trhy, test_size=0.1, shuffle=True)
-
-    
-    train_x=np.concatenate((trlx,trmx,trhx))
-    train_y=np.concatenate((trly,trmy,trhy))
-
-    
-
-    val_x=np.concatenate((vlx,vmx,vhx))
-    val_y=np.concatenate((vly,vmy,vhy))
-
-    test_x=np.concatenate((tlx,tmx,thx))
-    test_y=np.concatenate((tly,tmy,thy))
-
-    return train_x,train_y,val_x,val_y,test_x,test_y
 def convert_one_hot(x):
     lens=x.shape[0]
     res=np.zeros(shape=(lens,23,4))
