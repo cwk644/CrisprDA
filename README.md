@@ -1,3 +1,3 @@
 # CrisprDA
 
-# CrisprDA new branch will be completed during 2024.10.6~7
+# Limited to Internet. CrisprDA new branch will be completed during 2024.10.6~7.....
