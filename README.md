@@ -10,3 +10,6 @@ The required packages are:
 + python==3.6.9
 + tensorflow-gpu==2.5.0
 
+## Tested demo with testsets
+
+python test_code.py
