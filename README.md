@@ -49,9 +49,9 @@ from dataag import *
 from decoder import transformer_decoder
 from decoder import Decoder
 
-'''
-- - -code - - -
-'''
+
++ - - -code - - -
+
     if (isMixup):
         path3="model/"+"decoder.h5"
         path3_5="model/"+"decoderpart2.h5"
@@ -61,13 +61,12 @@ from decoder import Decoder
         train_data_middle=before.predict(train_data)
         after=Decoder()
         after.load_weights(path3_5)
-
         tx,ty=augmix(train_data,train_label,before,after,alpha)
         splx=np.reshape(tx,newshape=(-1,23,4))
         #ty=label_correction(params, revise(splx),ty, dataset,f=0.9,r=0.8)
         train_data=np.concatenate((splx,train_data))
         train_label=np.concatenate((ty,train_label))
 
-'''
-- - - train step - - -
-'''
+
++ - - - train step - - -
+
