@@ -557,7 +557,37 @@ def augmix(input_x,input_y,before,after,alpha):
 
     return xmix,ymix
 
+def augmix_revise(input_x,input_y,before,after,alpha):
+    batch_size = tf.shape(input_x)[0]
+    lens=tf.shape(input_x)[1]
+    
+    original_x=input_x
+    
+    k=2 #epochs
+    xmix=[]
+    ymix=[]
+    for i in range(k):
+        random_x_middle=before.predict(input_x)
+        random_x_middle=Add_noise(random_x_middle)
+        '''
+        random_x=after.predict(random_x_middle)
+        random_x=np.reshape(random_x,newshape=(-1,23,4))
+        '''
+        mix = tf.compat.v1.distributions.Beta(alpha, alpha).sample(1)
+        mix = tf.maximum(mix, 1 - mix)
 
+        t_middle=before.predict(original_x)
+        t_middle=mix * t_middle + (1-mix) * (random_x_middle)
+        input_x=after.predict(t_middle)
+        input_x=tf.reshape(input_x,shape=(-1,23,4))
+        xmix.append(input_x)
+        ymix.append(input_y)
+    #xmix=int_array(xmix)
+    
+    xmix=np.concatenate(xmix)
+    ymix=np.concatenate(ymix)
+
+    return xmix,ymix
 import matplotlib.pyplot as plt
 
 
