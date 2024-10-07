@@ -23,3 +23,15 @@ python test_code.py
 + [C-RNNCrispr](https://github.com/cwk644/CrisprDA/tree/master/C-RNNCrispr) the weights for the C-RNNCrispr model trained by different datasets
 + CrisprDA, CRISPRon, DeepCas9, DeepSpCas9 and C-RNNCrispr include corresponding model trained with Automix, CNLC and the combination of Automix and CNLC besides the pure model
 + DeepHF includes Automix model and the pure model. Specially, Bayes tuning log is located in DeepHF/WT/, DeepHF/HF1/, DeepHF/eSp/
+
++ [data](https://github.com/cwk644/CrisprDA/tree/master/data) 17 sgRNA datasets used in this study,saved in numpy for training
++ [Datasets](https://github.com/cwk644/CrisprDA/tree/master/Datasets) sgRNA datasets saved in the form of csv
++ [model](https://github.com/cwk644/CrisprDA/tree/master/model) the weight for autoencoder in Automix
++ [ParamDetail.py](https://github.com/cwk644/CrisprDA/tree/master/ParamDetail.py) parameters for CrisprDA
++ [ParamDetail2.py](https://github.com/cwk644/CrisprDA/tree/master/ParamDetail2.py) parameters for CrisprDA
++ [Transformer.py](https://github.com/cwk644/CrisprDA/tree/master/Transformer.py) the module of Transformer, which is the location of the function of attention mechanism
++ [dataag.py](https://github.com/cwk644/CrisprDA/tree/master/dataag.py) data augmentation method included in this study with some abandonded methods
++ [main.py](https://github.com/cwk644/CrisprDA/tree/master/main.py) CrisprDA main procedure, which includes each train step
++ [read.py](https://github.com/cwk644/CrisprDA/tree/master/read.py) pre_process for datasets, which transform csv into numpy
++ [test_code.py](https://github.com/cwk644/CrisprDA/tree/master/test_code.py) test_code for CrisprDA
++ [utils.py](https://github.com/cwk644/CrisprDA/tree/master/utils.py) code for evaluation metircs setting
