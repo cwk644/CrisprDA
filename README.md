@@ -47,7 +47,7 @@ python test_code.py
 
 insert the following code in your train function
 
--
+```
 from dataag import *
 from decoder import transformer_decoder
 from decoder import Decoder
@@ -65,5 +65,5 @@ if (isMixup):
     splx=np.reshape(tx,newshape=(-1,23,4))
     train_data=np.concatenate((splx,train_data))
     train_label=np.concatenate((ty,train_label))
-
+```
 
