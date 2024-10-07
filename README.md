@@ -45,28 +45,25 @@ python test_code.py
 
 ## how to use Automix in other methods
 
+insert the following code in your train function
+
+-
 from dataag import *
 from decoder import transformer_decoder
 from decoder import Decoder
 
+if (isMixup):
+    path3="model/"+"decoder.h5"
+    path3_5="model/"+"decoderpart2.h5"
+    m2=transformer_decoder()
+    before=Model(inputs=m2.input,outputs=m2.get_layer("middle").output)
+    m2.load_weights(path3)
+    train_data_middle=before.predict(train_data)
+    after=Decoder()
+    after.load_weights(path3_5)
+    tx,ty=augmix(train_data,train_label,before,after,alpha)
+    splx=np.reshape(tx,newshape=(-1,23,4))
+    train_data=np.concatenate((splx,train_data))
+    train_label=np.concatenate((ty,train_label))
 
-+ - - -code - - -
-
-    if (isMixup):
-        path3="model/"+"decoder.h5"
-        path3_5="model/"+"decoderpart2.h5"
-        m2=transformer_decoder()
-        before=Model(inputs=m2.input,outputs=m2.get_layer("middle").output)
-        m2.load_weights(path3)
-        train_data_middle=before.predict(train_data)
-        after=Decoder()
-        after.load_weights(path3_5)
-        tx,ty=augmix(train_data,train_label,before,after,alpha)
-        splx=np.reshape(tx,newshape=(-1,23,4))
-        #ty=label_correction(params, revise(splx),ty, dataset,f=0.9,r=0.8)
-        train_data=np.concatenate((splx,train_data))
-        train_label=np.concatenate((ty,train_label))
-
-
-+ - - - train step - - -
 
