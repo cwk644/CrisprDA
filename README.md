@@ -16,3 +16,8 @@ python test_code.py
 
 ## Files and directories description
 + [CrisprDA](https://github.com/cwk644/CrisprDA/tree/master/CrisprDA) the weights for the CrisprDA model trained by different datasets
++ [CRISPRON](https://github.com/cwk644/CrisprDA/tree/master/CRISPRON) the weights for the CRISPRon model trained by different datasets
++ [DeepCas9](https://github.com/cwk644/CrisprDA/tree/master/DeepCas9) the weights for the DeepCas9 model trained by different datasets
++ [DeepSpCas9](https://github.com/cwk644/CrisprDA/tree/master/DeepSpCas9) the weights for the DeepSpCas9 model trained by different datasets
++ [DeepHF](https://github.com/cwk644/CrisprDA/tree/master/DeepHF) the weights for the DeepHF model trained by different datasets
++ [C-RNNCrispr](https://github.com/cwk644/CrisprDA/tree/master/C-RNNCrispr) the weights for the C-RNNCrispr model trained by different datasets
