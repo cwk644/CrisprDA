@@ -11,9 +11,9 @@ The required packages are:
 + tensorflow-gpu==2.5.0
 
 ## Tested demo with testsets
-
+'''
 python test_code.py
-
+'''
 ## Files and directories description
 + [CrisprDA](https://github.com/cwk644/CrisprDA/tree/master/CrisprDA) the weights for the CrisprDA model trained by different datasets
 + [CRISPRON](https://github.com/cwk644/CrisprDA/tree/master/CRISPRON) the weights for the CRISPRon model trained by different datasets
