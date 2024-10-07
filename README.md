@@ -21,3 +21,5 @@ python test_code.py
 + [DeepSpCas9](https://github.com/cwk644/CrisprDA/tree/master/DeepSpCas9) the weights for the DeepSpCas9 model trained by different datasets
 + [DeepHF](https://github.com/cwk644/CrisprDA/tree/master/DeepHF) the weights for the DeepHF model trained by different datasets
 + [C-RNNCrispr](https://github.com/cwk644/CrisprDA/tree/master/C-RNNCrispr) the weights for the C-RNNCrispr model trained by different datasets
++ CrisprDA, CRISPRon, DeepCas9, DeepSpCas9 and C-RNNCrispr include corresponding model trained with Automix, CNLC and the combination of Automix and CNLC besides the pure model
++ DeepHF includes Automix model and the pure model. Specially, Bayes tuning log is located in DeepHF/WT/, DeepHF/HF1/, DeepHF/eSp/
