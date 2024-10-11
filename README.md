@@ -36,8 +36,6 @@ The required packages are:
 + [test_code.py](https://github.com/cwk644/CrisprDA/tree/master/test_code.py) test_code for CrisprDA
 + [utils.py](https://github.com/cwk644/CrisprDA/tree/master/utils.py) code for evaluation metircs setting
 
-## test methods for other models
-+ Test methods are not directly available, but other models can be test with corresponding code in [train_code](https://github.com/cwk644/CrisprDA/tree/master/train_code)
 
 ## how to add new datasets
 + use the function split_and_save_dataset in [read.py](https://github.com/cwk644/CrisprDA/tree/master/read.py) to split the data and save numpy. Before the usage of function, datasets should be transformed into pre-set form of csv file according to the function
