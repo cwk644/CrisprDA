@@ -1,0 +1,214 @@
+2024-08-27 21:27:10,862 - Model - INFO - ----------
+2024-08-27 21:27:10,862 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.5, 'rnn_rec_drop': 0.4, 'fc_drop': 0.2, 'batch_size': 30, 'epochs': 35, 'em_dim': 60, 'rnn_units': 180, 'fc_num_hidden_layers': 4, 'fc_num_units': 140, 'fc_activation': 1, 'optimizer': 6}
+2024-08-27 21:27:10,862 - Model - INFO - spearman:0.7926888223622824
+2024-08-27 21:59:55,579 - Model - INFO - ----------
+2024-08-27 21:59:55,579 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.6, 'fc_drop': 0.4, 'batch_size': 60, 'epochs': 45, 'em_dim': 24, 'rnn_units': 120, 'fc_num_hidden_layers': 6, 'fc_num_units': 100, 'fc_activation': 1, 'optimizer': 5}
+2024-08-27 21:59:55,579 - Model - INFO - spearman:0.7729409758212371
+2024-08-27 22:24:20,234 - Model - INFO - ----------
+2024-08-27 22:24:20,234 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.2, 'rnn_rec_drop': 0.7, 'fc_drop': 0.4, 'batch_size': 90, 'epochs': 30, 'em_dim': 64, 'rnn_units': 120, 'fc_num_hidden_layers': 1, 'fc_num_units': 70, 'fc_activation': 2, 'optimizer': 3}
+2024-08-27 22:24:20,234 - Model - INFO - spearman:0.5390508426288066
+2024-08-27 23:14:52,045 - Model - INFO - ----------
+2024-08-27 23:14:52,045 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.5, 'fc_drop': 0.7, 'batch_size': 80, 'epochs': 55, 'em_dim': 20, 'rnn_units': 30, 'fc_num_hidden_layers': 1, 'fc_num_units': 320, 'fc_activation': 1, 'optimizer': 4}
+2024-08-27 23:14:52,045 - Model - INFO - spearman:0.40532338565206005
+2024-08-27 23:59:49,857 - Model - INFO - ----------
+2024-08-27 23:59:49,858 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 50, 'epochs': 30, 'em_dim': 48, 'rnn_units': 140, 'fc_num_hidden_layers': 6, 'fc_num_units': 300, 'fc_activation': 1, 'optimizer': 3}
+2024-08-27 23:59:49,858 - Model - INFO - spearman:0.44931050196734923
+2024-08-28 00:28:04,550 - Model - INFO - ----------
+2024-08-28 00:28:04,550 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.5, 'fc_drop': 0.4, 'batch_size': 80, 'epochs': 30, 'em_dim': 40, 'rnn_units': 40, 'fc_num_hidden_layers': 5, 'fc_num_units': 340, 'fc_activation': 2, 'optimizer': 4}
+2024-08-28 00:28:04,551 - Model - INFO - spearman:0.437489970966825
+2024-08-28 00:59:15,153 - Model - INFO - ----------
+2024-08-28 00:59:15,153 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 60, 'epochs': 40, 'em_dim': 48, 'rnn_units': 120, 'fc_num_hidden_layers': 1, 'fc_num_units': 220, 'fc_activation': 2, 'optimizer': 0}
+2024-08-28 00:59:15,153 - Model - INFO - spearman:0.6583143595111252
+2024-08-28 01:21:55,456 - Model - INFO - ----------
+2024-08-28 01:21:55,456 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.2, 'fc_drop': 0.2, 'batch_size': 80, 'epochs': 25, 'em_dim': 52, 'rnn_units': 100, 'fc_num_hidden_layers': 3, 'fc_num_units': 360, 'fc_activation': 1, 'optimizer': 1}
+2024-08-28 01:21:55,456 - Model - INFO - spearman:0.39877316684956604
+2024-08-28 01:32:20,568 - Model - INFO - ----------
+2024-08-28 01:32:20,568 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.5, 'rnn_rec_drop': 0.7, 'fc_drop': 0.7, 'batch_size': 80, 'epochs': 50, 'em_dim': 40, 'rnn_units': 220, 'fc_num_hidden_layers': 6, 'fc_num_units': 300, 'fc_activation': 2, 'optimizer': 0}
+2024-08-28 01:32:20,569 - Model - INFO - spearman:0.3242369512425195
+2024-08-28 01:47:25,237 - Model - INFO - ----------
+2024-08-28 01:47:25,237 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.2, 'rnn_rec_drop': 0.5, 'fc_drop': 0.6, 'batch_size': 30, 'epochs': 30, 'em_dim': 64, 'rnn_units': 90, 'fc_num_hidden_layers': 1, 'fc_num_units': 320, 'fc_activation': 4, 'optimizer': 0}
+2024-08-28 01:47:25,237 - Model - INFO - spearman:0.35297501741665843
+2024-08-28 02:24:01,760 - Model - INFO - ----------
+2024-08-28 02:24:01,760 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.2, 'rnn_rec_drop': 0.2, 'fc_drop': 0.4, 'batch_size': 40, 'epochs': 40, 'em_dim': 48, 'rnn_units': 180, 'fc_num_hidden_layers': 1, 'fc_num_units': 140, 'fc_activation': 3, 'optimizer': 4}
+2024-08-28 02:24:01,760 - Model - INFO - spearman:0.34665975356765943
+2024-08-28 02:45:27,043 - Model - INFO - ----------
+2024-08-28 02:45:27,044 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 90, 'epochs': 25, 'em_dim': 16, 'rnn_units': 70, 'fc_num_hidden_layers': 2, 'fc_num_units': 100, 'fc_activation': 0, 'optimizer': 0}
+2024-08-28 02:45:27,044 - Model - INFO - spearman:0.6596784917251791
+2024-08-28 02:59:39,923 - Model - INFO - ----------
+2024-08-28 02:59:39,923 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.4, 'fc_drop': 0.6, 'batch_size': 60, 'epochs': 20, 'em_dim': 56, 'rnn_units': 160, 'fc_num_hidden_layers': 4, 'fc_num_units': 160, 'fc_activation': 3, 'optimizer': 0}
+2024-08-28 02:59:39,923 - Model - INFO - spearman:nan
+2024-08-28 03:07:06,431 - Model - INFO - ----------
+2024-08-28 03:07:06,431 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.4, 'fc_drop': 0.5, 'batch_size': 90, 'epochs': 35, 'em_dim': 52, 'rnn_units': 90, 'fc_num_hidden_layers': 4, 'fc_num_units': 400, 'fc_activation': 0, 'optimizer': 5}
+2024-08-28 03:07:06,431 - Model - INFO - spearman:0.6564654839523923
+2024-08-28 03:31:34,048 - Model - INFO - ----------
+2024-08-28 03:31:34,048 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 60, 'epochs': 20, 'em_dim': 40, 'rnn_units': 100, 'fc_num_hidden_layers': 1, 'fc_num_units': 120, 'fc_activation': 2, 'optimizer': 2}
+2024-08-28 03:31:34,048 - Model - INFO - spearman:0.6584394176969253
+2024-08-28 03:46:03,719 - Model - INFO - ----------
+2024-08-28 03:46:03,719 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.1, 'fc_drop': 0.2, 'batch_size': 30, 'epochs': 50, 'em_dim': 56, 'rnn_units': 30, 'fc_num_hidden_layers': 2, 'fc_num_units': 220, 'fc_activation': 4, 'optimizer': 6}
+2024-08-28 03:46:03,719 - Model - INFO - spearman:0.2196481349501996
+2024-08-28 04:10:20,293 - Model - INFO - ----------
+2024-08-28 04:10:20,293 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.5, 'rnn_rec_drop': 0.1, 'fc_drop': 0.2, 'batch_size': 70, 'epochs': 25, 'em_dim': 56, 'rnn_units': 40, 'fc_num_hidden_layers': 4, 'fc_num_units': 90, 'fc_activation': 0, 'optimizer': 2}
+2024-08-28 04:10:20,293 - Model - INFO - spearman:0.6903798911925607
+2024-08-28 05:35:17,488 - Model - INFO - ----------
+2024-08-28 05:35:17,488 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.5, 'rnn_rec_drop': 0.7, 'fc_drop': 0.4, 'batch_size': 30, 'epochs': 35, 'em_dim': 60, 'rnn_units': 140, 'fc_num_hidden_layers': 2, 'fc_num_units': 50, 'fc_activation': 0, 'optimizer': 1}
+2024-08-28 05:35:17,488 - Model - INFO - spearman:0.5324864158893046
+2024-08-28 05:56:51,845 - Model - INFO - ----------
+2024-08-28 05:56:51,845 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.7, 'fc_drop': 0.2, 'batch_size': 100, 'epochs': 30, 'em_dim': 68, 'rnn_units': 40, 'fc_num_hidden_layers': 2, 'fc_num_units': 60, 'fc_activation': 1, 'optimizer': 1}
+2024-08-28 05:56:51,845 - Model - INFO - spearman:0.3886211448029226
+2024-08-28 06:12:27,727 - Model - INFO - ----------
+2024-08-28 06:12:27,727 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.6, 'fc_drop': 0.6, 'batch_size': 100, 'epochs': 20, 'em_dim': 56, 'rnn_units': 180, 'fc_num_hidden_layers': 1, 'fc_num_units': 100, 'fc_activation': 4, 'optimizer': 5}
+2024-08-28 06:12:27,727 - Model - INFO - spearman:0.7058900785978025
+2024-08-28 06:48:51,103 - Model - INFO - ----------
+2024-08-28 06:48:51,103 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.2, 'rnn_rec_drop': 0.1, 'fc_drop': 0.4, 'batch_size': 90, 'epochs': 45, 'em_dim': 28, 'rnn_units': 100, 'fc_num_hidden_layers': 1, 'fc_num_units': 380, 'fc_activation': 4, 'optimizer': 1}
+2024-08-28 06:48:51,103 - Model - INFO - spearman:0.12198510096511213
+2024-08-28 07:07:39,348 - Model - INFO - ----------
+2024-08-28 07:07:39,349 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.5, 'rnn_rec_drop': 0.7, 'fc_drop': 0.6, 'batch_size': 100, 'epochs': 55, 'em_dim': 16, 'rnn_units': 160, 'fc_num_hidden_layers': 3, 'fc_num_units': 180, 'fc_activation': 1, 'optimizer': 2}
+2024-08-28 07:07:39,349 - Model - INFO - spearman:0.7561669661025789
+2024-08-28 07:12:54,286 - Model - INFO - ----------
+2024-08-28 07:12:54,286 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 100, 'epochs': 35, 'em_dim': 36, 'rnn_units': 40, 'fc_num_hidden_layers': 4, 'fc_num_units': 180, 'fc_activation': 3, 'optimizer': 6}
+2024-08-28 07:12:54,286 - Model - INFO - spearman:-0.15608138049233053
+2024-08-28 07:37:12,081 - Model - INFO - ----------
+2024-08-28 07:37:12,081 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.2, 'fc_drop': 0.6, 'batch_size': 60, 'epochs': 20, 'em_dim': 28, 'rnn_units': 180, 'fc_num_hidden_layers': 1, 'fc_num_units': 400, 'fc_activation': 3, 'optimizer': 3}
+2024-08-28 07:37:12,081 - Model - INFO - spearman:0.344007632717638
+2024-08-28 07:52:55,458 - Model - INFO - ----------
+2024-08-28 07:52:55,458 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.4, 'fc_drop': 0.2, 'batch_size': 90, 'epochs': 35, 'em_dim': 44, 'rnn_units': 160, 'fc_num_hidden_layers': 1, 'fc_num_units': 220, 'fc_activation': 2, 'optimizer': 5}
+2024-08-28 07:52:55,459 - Model - INFO - spearman:0.6575323687025408
+2024-08-28 08:19:25,549 - Model - INFO - ----------
+2024-08-28 08:19:25,549 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 70, 'epochs': 25, 'em_dim': 56, 'rnn_units': 160, 'fc_num_hidden_layers': 6, 'fc_num_units': 380, 'fc_activation': 2, 'optimizer': 4}
+2024-08-28 08:19:25,549 - Model - INFO - spearman:0.5051931816936094
+2024-08-28 08:54:38,525 - Model - INFO - ----------
+2024-08-28 08:54:38,525 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.5, 'fc_drop': 0.4, 'batch_size': 80, 'epochs': 35, 'em_dim': 68, 'rnn_units': 220, 'fc_num_hidden_layers': 1, 'fc_num_units': 140, 'fc_activation': 3, 'optimizer': 5}
+2024-08-28 08:54:38,525 - Model - INFO - spearman:0.7728349776026276
+2024-08-28 09:08:33,015 - Model - INFO - ----------
+2024-08-28 09:08:33,015 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 60, 'epochs': 40, 'em_dim': 64, 'rnn_units': 200, 'fc_num_hidden_layers': 5, 'fc_num_units': 160, 'fc_activation': 4, 'optimizer': 2}
+2024-08-28 09:08:33,015 - Model - INFO - spearman:0.049722290546710846
+2024-08-28 10:49:15,026 - Model - INFO - ----------
+2024-08-28 10:49:15,026 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.7, 'fc_drop': 0.2, 'batch_size': 20, 'epochs': 55, 'em_dim': 60, 'rnn_units': 50, 'fc_num_hidden_layers': 2, 'fc_num_units': 60, 'fc_activation': 0, 'optimizer': 4}
+2024-08-28 10:49:15,026 - Model - INFO - spearman:0.5819386296727875
+2024-08-28 11:50:39,580 - Model - INFO - ----------
+2024-08-28 11:50:39,580 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.2, 'fc_drop': 0.4, 'batch_size': 30, 'epochs': 25, 'em_dim': 64, 'rnn_units': 90, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 4, 'optimizer': 3}
+2024-08-28 11:50:39,580 - Model - INFO - spearman:-0.1060369311694125
+2024-08-28 12:10:44,024 - Model - INFO - ----------
+2024-08-28 12:10:44,024 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.5, 'fc_drop': 0.4, 'batch_size': 90, 'epochs': 45, 'em_dim': 44, 'rnn_units': 20, 'fc_num_hidden_layers': 2, 'fc_num_units': 70, 'fc_activation': 2, 'optimizer': 6}
+2024-08-28 12:10:44,025 - Model - INFO - spearman:0.6600411765732145
+2024-08-28 12:31:57,707 - Model - INFO - ----------
+2024-08-28 12:31:57,708 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 40, 'epochs': 50, 'em_dim': 32, 'rnn_units': 80, 'fc_num_hidden_layers': 2, 'fc_num_units': 220, 'fc_activation': 2, 'optimizer': 5}
+2024-08-28 12:31:57,708 - Model - INFO - spearman:0.6584274431444649
+2024-08-28 13:09:30,429 - Model - INFO - ----------
+2024-08-28 13:09:30,430 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.4, 'fc_drop': 0.1, 'batch_size': 20, 'epochs': 20, 'em_dim': 60, 'rnn_units': 30, 'fc_num_hidden_layers': 4, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 1}
+2024-08-28 13:09:30,430 - Model - INFO - spearman:0.5119075917583109
+2024-08-28 13:26:55,904 - Model - INFO - ----------
+2024-08-28 13:26:55,904 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.6, 'fc_drop': 0.2, 'batch_size': 60, 'epochs': 40, 'em_dim': 40, 'rnn_units': 120, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 13:26:55,904 - Model - INFO - spearman:0.7848192874371386
+2024-08-28 14:08:28,555 - Model - INFO - ----------
+2024-08-28 14:08:28,555 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.4, 'fc_drop': 0.5, 'batch_size': 80, 'epochs': 45, 'em_dim': 48, 'rnn_units': 90, 'fc_num_hidden_layers': 6, 'fc_num_units': 400, 'fc_activation': 3, 'optimizer': 1}
+2024-08-28 14:08:28,555 - Model - INFO - spearman:0.07044540168571294
+2024-08-28 14:42:18,447 - Model - INFO - ----------
+2024-08-28 14:42:18,448 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.2, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 40, 'epochs': 45, 'em_dim': 28, 'rnn_units': 80, 'fc_num_hidden_layers': 2, 'fc_num_units': 220, 'fc_activation': 2, 'optimizer': 5}
+2024-08-28 14:42:18,448 - Model - INFO - spearman:0.659493580411693
+2024-08-28 15:00:01,179 - Model - INFO - ----------
+2024-08-28 15:00:01,180 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.2, 'fc_drop': 0.4, 'batch_size': 40, 'epochs': 40, 'em_dim': 36, 'rnn_units': 80, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 2, 'optimizer': 0}
+2024-08-28 15:00:01,180 - Model - INFO - spearman:0.6577982566509704
+2024-08-28 15:15:26,422 - Model - INFO - ----------
+2024-08-28 15:15:26,422 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.5, 'rnn_rec_drop': 0.2, 'fc_drop': 0.2, 'batch_size': 40, 'epochs': 45, 'em_dim': 32, 'rnn_units': 70, 'fc_num_hidden_layers': 1, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-28 15:15:26,422 - Model - INFO - spearman:0.7871657438011681
+2024-08-28 15:32:53,201 - Model - INFO - ----------
+2024-08-28 15:32:53,201 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 40, 'epochs': 45, 'em_dim': 32, 'rnn_units': 70, 'fc_num_hidden_layers': 2, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-28 15:32:53,201 - Model - INFO - spearman:0.7899116662029325
+2024-08-28 15:59:57,093 - Model - INFO - ----------
+2024-08-28 15:59:57,093 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 50, 'epochs': 45, 'em_dim': 32, 'rnn_units': 70, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-28 15:59:57,093 - Model - INFO - spearman:0.7894816453265665
+2024-08-28 16:18:54,778 - Model - INFO - ----------
+2024-08-28 16:18:54,778 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.2, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 40, 'em_dim': 32, 'rnn_units': 120, 'fc_num_hidden_layers': 5, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 16:18:54,778 - Model - INFO - spearman:0.7863881744817725
+2024-08-28 16:35:45,147 - Model - INFO - ----------
+2024-08-28 16:35:45,147 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 40, 'epochs': 45, 'em_dim': 32, 'rnn_units': 60, 'fc_num_hidden_layers': 5, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-28 16:35:45,147 - Model - INFO - spearman:0.7849476514170487
+2024-08-28 16:48:51,945 - Model - INFO - ----------
+2024-08-28 16:48:51,945 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 70, 'epochs': 40, 'em_dim': 36, 'rnn_units': 120, 'fc_num_hidden_layers': 4, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 16:48:51,945 - Model - INFO - spearman:0.7836765864345412
+2024-08-28 17:20:08,616 - Model - INFO - ----------
+2024-08-28 17:20:08,616 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.5, 'fc_drop': 0.4, 'batch_size': 90, 'epochs': 35, 'em_dim': 68, 'rnn_units': 220, 'fc_num_hidden_layers': 1, 'fc_num_units': 140, 'fc_activation': 3, 'optimizer': 5}
+2024-08-28 17:20:08,616 - Model - INFO - spearman:0.763882044514548
+2024-08-28 17:35:14,441 - Model - INFO - ----------
+2024-08-28 17:35:14,441 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.5, 'fc_drop': 0.5, 'batch_size': 100, 'epochs': 25, 'em_dim': 60, 'rnn_units': 90, 'fc_num_hidden_layers': 2, 'fc_num_units': 400, 'fc_activation': 0, 'optimizer': 5}
+2024-08-28 17:35:14,441 - Model - INFO - spearman:0.6578322084026408
+2024-08-28 17:58:05,733 - Model - INFO - ----------
+2024-08-28 17:58:05,733 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 40, 'epochs': 45, 'em_dim': 28, 'rnn_units': 70, 'fc_num_hidden_layers': 5, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-28 17:58:05,733 - Model - INFO - spearman:0.7932843224649436
+2024-08-28 18:28:15,139 - Model - INFO - ----------
+2024-08-28 18:28:15,139 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.2, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.6, 'fc_drop': 0.4, 'batch_size': 80, 'epochs': 30, 'em_dim': 68, 'rnn_units': 220, 'fc_num_hidden_layers': 1, 'fc_num_units': 120, 'fc_activation': 3, 'optimizer': 5}
+2024-08-28 18:28:15,139 - Model - INFO - spearman:0.7532584690892713
+2024-08-28 18:46:04,952 - Model - INFO - ----------
+2024-08-28 18:46:04,952 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 40, 'em_dim': 36, 'rnn_units': 140, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 18:46:04,952 - Model - INFO - spearman:0.7866110383228073
+2024-08-28 19:17:11,853 - Model - INFO - ----------
+2024-08-28 19:17:11,853 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.6, 'fc_drop': 0.4, 'batch_size': 80, 'epochs': 30, 'em_dim': 68, 'rnn_units': 240, 'fc_num_hidden_layers': 1, 'fc_num_units': 140, 'fc_activation': 3, 'optimizer': 5}
+2024-08-28 19:17:11,854 - Model - INFO - spearman:0.7502498245636819
+2024-08-28 19:31:16,311 - Model - INFO - ----------
+2024-08-28 19:31:16,312 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 45, 'em_dim': 36, 'rnn_units': 120, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 19:31:16,312 - Model - INFO - spearman:0.7802895902488803
+2024-08-28 19:55:33,174 - Model - INFO - ----------
+2024-08-28 19:55:33,175 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.4, 'rnn_rec_drop': 0.5, 'fc_drop': 0.4, 'batch_size': 70, 'epochs': 40, 'em_dim': 16, 'rnn_units': 100, 'fc_num_hidden_layers': 5, 'fc_num_units': 100, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 19:55:33,175 - Model - INFO - spearman:0.7665363535967998
+2024-08-28 20:12:05,290 - Model - INFO - ----------
+2024-08-28 20:12:05,290 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.4, 'fc_drop': 0.4, 'batch_size': 50, 'epochs': 50, 'em_dim': 24, 'rnn_units': 100, 'fc_num_hidden_layers': 6, 'fc_num_units': 100, 'fc_activation': 0, 'optimizer': 0}
+2024-08-28 20:12:05,290 - Model - INFO - spearman:0.6589950253868767
+2024-08-28 20:53:38,784 - Model - INFO - ----------
+2024-08-28 20:53:38,784 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.4, 'fc_drop': 0.2, 'batch_size': 80, 'epochs': 40, 'em_dim': 68, 'rnn_units': 240, 'fc_num_hidden_layers': 1, 'fc_num_units': 140, 'fc_activation': 3, 'optimizer': 5}
+2024-08-28 20:53:38,784 - Model - INFO - spearman:0.7845397027076708
+2024-08-28 21:10:58,754 - Model - INFO - ----------
+2024-08-28 21:10:58,754 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 40, 'em_dim': 36, 'rnn_units': 120, 'fc_num_hidden_layers': 6, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 2}
+2024-08-28 21:10:58,754 - Model - INFO - spearman:0.764886323507881
+2024-08-28 21:46:49,330 - Model - INFO - ----------
+2024-08-28 21:46:49,330 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.4, 'fc_drop': 0.2, 'batch_size': 60, 'epochs': 35, 'em_dim': 32, 'rnn_units': 120, 'fc_num_hidden_layers': 1, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 21:46:49,330 - Model - INFO - spearman:0.7861504555027684
+2024-08-28 22:22:39,727 - Model - INFO - ----------
+2024-08-28 22:22:39,728 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.4, 'batch_size': 60, 'epochs': 40, 'em_dim': 32, 'rnn_units': 120, 'fc_num_hidden_layers': 1, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 22:22:39,728 - Model - INFO - spearman:0.7845686105271679
+2024-08-28 22:36:29,756 - Model - INFO - ----------
+2024-08-28 22:36:29,756 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 70, 'epochs': 35, 'em_dim': 32, 'rnn_units': 140, 'fc_num_hidden_layers': 3, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 22:36:29,756 - Model - INFO - spearman:0.7845806816865072
+2024-08-28 23:13:29,335 - Model - INFO - ----------
+2024-08-28 23:13:29,335 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.3, 'rnn_drop': 0.6, 'rnn_rec_drop': 0.4, 'fc_drop': 0.7, 'batch_size': 80, 'epochs': 45, 'em_dim': 68, 'rnn_units': 220, 'fc_num_hidden_layers': 1, 'fc_num_units': 120, 'fc_activation': 1, 'optimizer': 5}
+2024-08-28 23:13:29,335 - Model - INFO - spearman:0.7571330328540636
+2024-08-28 23:50:30,473 - Model - INFO - ----------
+2024-08-28 23:50:30,473 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 80, 'epochs': 40, 'em_dim': 60, 'rnn_units': 240, 'fc_num_hidden_layers': 1, 'fc_num_units': 140, 'fc_activation': 3, 'optimizer': 5}
+2024-08-28 23:50:30,473 - Model - INFO - spearman:0.7788893310664088
+2024-08-29 00:35:12,962 - Model - INFO - ----------
+2024-08-29 00:35:12,962 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.1, 'rnn_rec_drop': 0.1, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 35, 'em_dim': 32, 'rnn_units': 120, 'fc_num_hidden_layers': 2, 'fc_num_units': 220, 'fc_activation': 0, 'optimizer': 1}
+2024-08-29 00:35:12,962 - Model - INFO - spearman:0.4702614364720664
+2024-08-29 01:01:43,296 - Model - INFO - ----------
+2024-08-29 01:01:43,296 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.2, 'batch_size': 70, 'epochs': 55, 'em_dim': 28, 'rnn_units': 140, 'fc_num_hidden_layers': 6, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-29 01:01:43,296 - Model - INFO - spearman:0.784695960333457
+2024-08-29 01:28:01,270 - Model - INFO - ----------
+2024-08-29 01:28:01,270 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.2, 'batch_size': 70, 'epochs': 55, 'em_dim': 32, 'rnn_units': 120, 'fc_num_hidden_layers': 6, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-29 01:28:01,270 - Model - INFO - spearman:0.7906628398395983
+2024-08-29 02:00:55,543 - Model - INFO - ----------
+2024-08-29 02:00:55,543 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.2, 'fc_drop': 0.1, 'batch_size': 100, 'epochs': 40, 'em_dim': 68, 'rnn_units': 240, 'fc_num_hidden_layers': 1, 'fc_num_units': 120, 'fc_activation': 3, 'optimizer': 5}
+2024-08-29 02:00:55,543 - Model - INFO - spearman:0.7701398931430219
+2024-08-29 02:28:42,418 - Model - INFO - ----------
+2024-08-29 02:28:42,418 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 70, 'epochs': 55, 'em_dim': 28, 'rnn_units': 120, 'fc_num_hidden_layers': 6, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 2}
+2024-08-29 02:28:42,418 - Model - INFO - spearman:0.7944112247531407
+2024-08-29 02:45:57,175 - Model - INFO - ----------
+2024-08-29 02:45:57,175 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.6, 'batch_size': 70, 'epochs': 50, 'em_dim': 32, 'rnn_units': 140, 'fc_num_hidden_layers': 6, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 5}
+2024-08-29 02:45:57,175 - Model - INFO - spearman:nan
+2024-08-29 03:19:01,400 - Model - INFO - ----------
+2024-08-29 03:19:01,400 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 55, 'em_dim': 16, 'rnn_units': 100, 'fc_num_hidden_layers': 4, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-29 03:19:01,400 - Model - INFO - spearman:0.7860469442708663
+2024-08-29 03:58:17,056 - Model - INFO - ----------
+2024-08-29 03:58:17,056 - Model - INFO - params:{'model_type': 'eSp', 'em_drop': 0.1, 'rnn_drop': 0.7, 'rnn_rec_drop': 0.7, 'fc_drop': 0.1, 'batch_size': 60, 'epochs': 55, 'em_dim': 16, 'rnn_units': 100, 'fc_num_hidden_layers': 4, 'fc_num_units': 220, 'fc_activation': 1, 'optimizer': 0}
+2024-08-29 03:58:17,056 - Model - INFO - spearman:0.7868038887579635
+2024-08-29 03:58:17,246 - Model - INFO - optimized loss: 0.013569836764085403
+2024-08-29 03:58:17,246 - Model - INFO - parameter em_drop:0.1
+2024-08-29 03:58:17,246 - Model - INFO - parameter rnn_drop:0.7
+2024-08-29 03:58:17,246 - Model - INFO - parameter rnn_rec_drop:0.1
+2024-08-29 03:58:17,246 - Model - INFO - parameter fc_drop:0.1
+2024-08-29 03:58:17,246 - Model - INFO - parameter batch_size:40.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter epochs:45.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter em_dim:32.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter rnn_units:70.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter fc_num_hidden_layers:2.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter fc_num_units:220.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter fc_activation:1.0
+2024-08-29 03:58:17,246 - Model - INFO - parameter optimizer:0.0
