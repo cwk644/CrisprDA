@@ -41,6 +41,17 @@ The required packages are:
 ## how to add new datasets
 + use the function split_and_save_dataset in [read.py](https://github.com/cwk644/CrisprDA/tree/master/read.py) to split the data and save numpy. Before the usage of function, datasets should be transformed into pre-set form of csv file according to the function
 
-
+## how to use Automix and CNLC?
+The result of experiment is multifarious. If you only want to use Automix,we collect the code in dataag_use.py by such followed function
 ```
+augmented_dataset = augmix_reivse(input_x,input_y,encoder,decoder,alpha) (Automix)
+augmented_dataset = Automix_three_methods(input_x, input_y, encoder, decoder,
+                          # alpha for each method
+                          alpha_A=0.4, alpha_B=0.4, alpha_C=0.4,
+                          # ratio for each method
+                          selection_ratio_A=0.3, 
+                          selection_ratio_B=0.3,
+                          selection_ratio_C=0.4,
+                          seed_start=10, 
+                          delta_c=0.1)  # Automix_ensemble
 
