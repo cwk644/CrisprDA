@@ -42,4 +42,4 @@ The required packages are:
 
 
 ```
-Limited to Internet speed, the part of new test will be updated in 2015.5.19
+
