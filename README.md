@@ -22,6 +22,7 @@ The required packages are:
 + [C-RNNCrispr](https://github.com/cwk644/CrisprDA/tree/master/C-RNNCrispr) the weights for the C-RNNCrispr model trained by different datasets
 + CrisprDA, CRISPRon, DeepCas9, DeepSpCas9 and C-RNNCrispr include corresponding model trained with Automix, CNLC and the combination of Automix and CNLC besides the pure model
 + DeepHF includes Automix model and the pure model. Specially, Bayes tuning log is located in DeepHF/WT/, DeepHF/HF1/, DeepHF/eSp/
++ [new_test](https://github.com/cwk644/CrisprDA/tree/master/new_test) part of Automix_ensemble and t-test for CNLC
 
 + [data](https://github.com/cwk644/CrisprDA/tree/master/data) 17 sgRNA datasets used in this study,saved in numpy for training
 + [Datasets](https://github.com/cwk644/CrisprDA/tree/master/Datasets) sgRNA datasets saved in the form of csv
