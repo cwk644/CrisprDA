@@ -54,4 +54,6 @@ augmented_dataset = Automix_three_methods(input_x, input_y, encoder, decoder,
                           selection_ratio_C=0.4,
                           seed_start=10, 
                           delta_c=0.1)  # Automix_ensemble
+'''
+specially, the newest version of Automix not include such parameter of k, you can use other methods with Automix to generate the desired number of new samples.
 
