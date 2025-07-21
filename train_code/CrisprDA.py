@@ -470,7 +470,7 @@ if __name__ == "__main__":
             c=np.array(res)
             np.save(restmp,c)
 
-
+################## this part of code is outdated. Detailed can be seen in main.py.
 
 
 
