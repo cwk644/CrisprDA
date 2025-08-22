@@ -1,3 +1,6 @@
+'''
+This version may include some bug?? I forget which version is the true CrisprDA
+'''
 import Transformer as tr
 from Transformer import Transformer
 from Transformer import *
@@ -530,6 +533,7 @@ if __name__ == "__main__":
             c=np.array(res)
             np.save(restmp,c)
         
+
 
 
 
