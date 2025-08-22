@@ -44,7 +44,6 @@ The required packages are:
 ## how to use Automix and CNLC?
 The result of experiment is multifarious. If you only want to use Automix,we collect the code in dataag_use.py by such followed function
 ```
-augmented_dataset = augmix_reivse(input_x,input_y,encoder,decoder,alpha) (Automix)
 augmented_dataset = Automix_three_methods(input_x, input_y, encoder, decoder,
                           # alpha for each method
                           alpha_A=0.4, alpha_B=0.4, alpha_C=0.4,
