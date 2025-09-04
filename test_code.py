@@ -321,6 +321,6 @@ if __name__ == "__main__":
             np.save(restmp,c)
     
 
-
+# the version of test code may be old. If it doesn't work, you can rewrite as CrisprDA.py shown.
 
 
