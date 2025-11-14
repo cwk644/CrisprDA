@@ -58,3 +58,4 @@ In old version, we design a parameter round k to generate more samples. However,
 Thus, if you have read Supplementary File and have problem about parameter k, please ignore it.
 you can use other methods with Automix to generate the desired number of new samples.
 
+---The other methods in the code are merely my own reproductions used in CrisprDA comparison. If there includes some mistakes, please forgive me. 
